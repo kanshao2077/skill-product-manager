@@ -1,0 +1,52 @@
+[
+  {
+    "query": "帮我做一个把访谈录音整理成选题库的 Skill。",
+    "should_trigger": true,
+    "reason": "明确要求创建新的 Skill。"
+  },
+  {
+    "query": "这套流程我每周都要重复，先找社区现有方案，再帮我沉淀成可复用 Skill。",
+    "should_trigger": true,
+    "reason": "要求研究并把重复流程产品化。"
+  },
+  {
+    "query": "优化这个已有 Skill 的触发边界和输出稳定性，保留已经跑通的部分。",
+    "should_trigger": true,
+    "reason": "属于现有 Skill 的实质改造与评测。"
+  },
+  {
+    "query": "把刚才我们反复修改到满意的做法沉淀成一个 Skill，以后直接调用。",
+    "should_trigger": true,
+    "reason": "从真实成功流程沉淀并要求未来复用。"
+  },
+  {
+    "query": "先评估这个 Skill 是否值得发布，只审计，不修改。",
+    "should_trigger": true,
+    "reason": "要求对 Skill 做产品与发布审计，动作边界为只读。"
+  },
+  {
+    "query": "帮我把这段英文翻译成中文。",
+    "should_trigger": false,
+    "reason": "一次性翻译任务，未要求沉淀。"
+  },
+  {
+    "query": "用现成的 PDF Skill 读取这份文件。",
+    "should_trigger": false,
+    "reason": "使用已知 Skill，不是创建或改造。"
+  },
+  {
+    "query": "安装 vercel-labs/skills 里的 find-skills。",
+    "should_trigger": false,
+    "reason": "纯安装任务应走安装流程。"
+  },
+  {
+    "query": "先帮我做一次会议纪要，我现在不想沉淀流程。",
+    "should_trigger": false,
+    "reason": "用户明确要求一次性完成且不创建 Skill。"
+  },
+  {
+    "query": "给我讲讲 Agent Skill 是什么。",
+    "should_trigger": false,
+    "reason": "概念解释，不需要启动构建流程。"
+  }
+]
