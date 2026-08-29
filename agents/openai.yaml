@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill 产品经理"
+  short_description: "少提问、快选型、直接落地并验证可复用的 Agent Skill"
+  default_prompt: "使用 $skill-product-manager，把这项重复工作快速做成可复用 Skill；能合理假设就直接推进。"
