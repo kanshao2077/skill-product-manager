@@ -33,7 +33,7 @@ npx skills add kanshao2077/skill-product-manager \
 
 安装后新开一个会话，让 Agent 重新加载 Skill。
 
-不想用命令行，可以在 [Releases](https://github.com/kanshao2077/skill-product-manager/releases) 下载 ZIP，解压后把完整的 `skill-product-manager` 文件夹导入 Agent。根目录里的 `SKILL.md` 和其他文件要一起保留。
+不想用命令行，可以在 [Releases](https://github.com/kanshao2077/skill-product-manager/releases) 下载 ZIP。解压后把全部内容放进一个名为 `skill-product-manager` 的文件夹，再导入 Agent；根目录里的 `SKILL.md` 和其他文件要一起保留。
 
 ## 怎么用
 
